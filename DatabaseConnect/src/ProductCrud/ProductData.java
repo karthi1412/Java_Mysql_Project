@@ -43,10 +43,5 @@ public class ProductData {
 		return "ProductData [product_id=" + product_id + ", product_name=" + product_name + ", price=" + price
 				+ ", category=" + category + ", quantity=" + quantity + "]";
 	}
-	
-	
-	
-    
-    
 
 }
