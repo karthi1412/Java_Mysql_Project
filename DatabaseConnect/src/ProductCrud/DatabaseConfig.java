@@ -101,6 +101,3 @@ public class DatabaseConfig {
         System.out.println("Product deleted successfully");
     }
 }
-
-
-
