@@ -14,7 +14,6 @@ public class DatabaseConfig {
     String hostName = "jdbc:mysql://localhost:3306/productdatabase";
     String user = "root";
     String password = "MySQL@123";
-
     Connection connection;
 
     public void getData() throws ClassNotFoundException, SQLException {
@@ -38,7 +37,6 @@ public class DatabaseConfig {
             productData.setQuantity(result.getInt("quantity"));
             productDatas.add(productData);
         }
-
         System.out.println(productDatas);
     }
 
